@@ -16,7 +16,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        //Recibe intent de ActivityMain (1)
+        //Recibe intent de ActivityMain (1) (intent)
         i = getIntent();
         Bundle extras = i.getExtras();
         texto = extras.getString("texto");
@@ -24,6 +24,7 @@ public class Main2Activity extends AppCompatActivity {
         TextView confirmacion_txt = (TextView) fragment.findViewById(R.id.confirmacion);
         confirmacion_txt.setText("Has escrito " + texto);
     }
+
 
     public void aceptar(View v) {
         i.putExtra("RESULTADO", texto);
