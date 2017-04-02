@@ -20,7 +20,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="cancelar_btn"
+            android:onClick="cancelar"
             android:text="No"
             android:id="@+id/button4"
             android:layout_alignBaseline="@+id/button5"
@@ -33,7 +33,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="aceptar_btn"
+            android:onClick="aceptar"
             android:text="Sí"
             android:id="@+id/button5"
             android:layout_marginBottom="54dp"
